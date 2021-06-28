@@ -1,0 +1,12 @@
+# Virtual environment
+env/
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Token
+config.py
+
+# Database
+db.sql
