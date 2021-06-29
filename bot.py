@@ -7,6 +7,8 @@ from board import Board
 from square import Square
 from castling import Castling
 
+print('ok')
+
 bot = telebot.TeleBot(TOKEN)
 pot = telepot.Bot(TOKEN)
 
