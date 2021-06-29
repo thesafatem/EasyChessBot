@@ -1,13 +1,17 @@
+import os
 import telebot
 import telepot
 import pickle
 import mysql.connector
-from config import TOKEN, DB_PASSWORD
+# from config import TOKEN, DB_PASSWORD
 from board import Board
 from square import Square
 from castling import Castling
 
 print('ok')
+
+TOKEN = os.environ['TOKEN']
+DB_PASSWORD = os.environ['DB_PASSWORD']
 
 bot = telebot.TeleBot(TOKEN)
 pot = telepot.Bot(TOKEN)
