@@ -20,8 +20,7 @@ pot = telepot.Bot(TOKEN)
 db = mysql.connector.connect(
 	user = 'root',
 	password = DB_PASSWORD,
-	host = DB_URL,
-	database = 'easychess',
+	host = DB_URL
 )
 
 cursor = db.cursor()
