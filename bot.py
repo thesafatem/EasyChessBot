@@ -21,7 +21,6 @@ db = mysql.connector.connect(
 	user = 'root',
 	password = DB_PASSWORD,
 	host = DB_URL,
-	port = '',
 	database = 'easychess',
 )
 
