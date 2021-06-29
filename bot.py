@@ -12,6 +12,7 @@ print('ok')
 
 TOKEN = os.environ['TOKEN']
 DB_PASSWORD = os.environ['DB_PASSWORD']
+DB_URL = os.environ['CLEARDB_DATABASE_URL']
 
 bot = telebot.TeleBot(TOKEN)
 pot = telepot.Bot(TOKEN)
@@ -19,8 +20,8 @@ pot = telepot.Bot(TOKEN)
 db = mysql.connector.connect(
 	user = 'root',
 	password = DB_PASSWORD,
-	host = 'localhost',
-	port = '3306',
+	host = DB_URL,
+	port = '',
 	database = 'easychess',
 )
 
