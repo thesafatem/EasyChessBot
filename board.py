@@ -11,6 +11,7 @@ from boards import initial_board, reti_etude
 from PIL import Image, ImageDraw
 import copy
 
+
 class Board:
 	def __init__(self):
 		self.board = initial_board

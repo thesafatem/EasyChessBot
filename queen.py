@@ -3,6 +3,7 @@ from square import Square
 from bishop import Bishop
 from rook import Rook
 
+
 class Queen(Piece):
 	def __init__(self, color, square):
 		super().__init__(color, square)
