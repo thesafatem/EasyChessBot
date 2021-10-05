@@ -4,7 +4,9 @@ class Square:
 		self.y = y
 
 	def __str__(self):
-		return self.x + str(self.y)
+		if self.x + str(self.y):
+			return True
+		return False
 
 	def __eq__(self, obj):
 		return self.x == obj.x and self.y == obj.y
