@@ -7,7 +7,7 @@ from contextlib import closing
 def get_conn(dbname=None):
     kw = {
         'user': 'postgres',
-        'password': 'RubberduckKBTU01',
+        'password': '****************',
         'host': 'localhost',
         'port': '5432'
     }
